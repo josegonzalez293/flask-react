@@ -6,3 +6,4 @@ Flask
 flask_restful
 flask_cors
 requests
+gunicorn

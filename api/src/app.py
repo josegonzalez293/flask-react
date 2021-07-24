@@ -1,6 +1,9 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from flask import Flask, jsonify
 from flask_cors import CORS
-from search import search_video
+from src.search import search_video
 
 app = Flask(__name__)
 CORS(app)

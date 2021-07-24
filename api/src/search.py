@@ -1,8 +1,7 @@
 import os
 from googleapiclient.discovery import build
-from googleapiclient.errors import HttpError
 
-API_KEY = os.getenv('API_KEY')
+API_KEY = os.getenv('API_KEY') or 'AIzaSyCAqhfX-f4XomY12osDKETar410n8OJgLc'
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
 

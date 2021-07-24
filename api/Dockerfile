@@ -12,4 +12,4 @@ WORKDIR /app
 
 COPY . .
 
-CMD ["python", "-u", "src/app.py"]
+CMD ["python", "-u", "app.py"]
